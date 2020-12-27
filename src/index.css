@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+  height: 30px;
+  background: lightgray;
+}
+
+.colors_container {
+  width: auto;
+  height: 100%;
+  display: grid;
+  background: dimgrey;
+  margin-left: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.color {
+  margin: 2px;
+  width: 11px;
+  height: 11px;
+}
+
+#black {
+  background: black;
+}
+
+#red {
+  background: red;
+}
+
+#green {
+  background: green;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#brown {
+  background: brown;
+}
+
+#blue {
+  background: blue;
+}
+
+button {
+  align-self: center;
+  margin-left: 5px;
+}
+
+select {
+  width: 80px;
+  height: 22px;
+  align-self: center;
+  margin-left: 5px;
+}
+
+canvas {
+  display: block;
+}
